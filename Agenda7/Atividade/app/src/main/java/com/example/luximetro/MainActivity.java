@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private SensorManager sensorManager;
     private Sensor sensor;
     private SensorEventListener sensorEventListener;
+    private float minValue = 10000;
+    private float maxValue = -10000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
